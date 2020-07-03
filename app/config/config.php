@@ -7,6 +7,8 @@ define('DB_NAME', '_YOUR_DBNAME_');
 
 // APP Root
 define('APPROOT', dirname(dirname(__FILE__)));
+// SITE Root
+define('SITEROOT', dirname(dirname(dirname(__FILE__))));
 
 // URL Root, used for links
 define('URLROOT', '_YOUR_URL_');
